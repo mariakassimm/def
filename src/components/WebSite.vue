@@ -1,291 +1,405 @@
 <template>
-  <div>
-    <nav class="navbar">
-      <div class="navbar-content">
-        <span class="navbar-text">Welcome to Our Website!</span>
-        <button class="navbar-button" @click="signIn">Sign In</button>
-      </div>
-    </nav>   
-   <nav class="second-navbar">
-      <div class="navbar-content">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About Us</a>
-        <a href="#" class="nav-link">Shop Now</a>
-        <a href="#" class="nav-link">Contact</a>
-      </div>
+<div>
+<nav class="navbar1">
+        <div class="navbar-content">
+          <span class="navbar-text">Welcome to Our Website!</span>
+          <button class="navbar-button" @click="signIn">Sign In</button>
+        </div>
+      </nav>   
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list h-nav-resp ">
+        <div class="logo"><img src="starbucks.png" alt="logo"></div> 
+        <li><a href="#home">HOME</a></li>   
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT US</a></li>
+        </ul>
     </nav>
-   <div class="container1">
-  <div class="content1">
-    <h1 class="heading1">How We're Keeping You Safe From Covid-19</h1>
-    <p class="description1">Explore our amazing products and services.
-      Vue.js, often referred to as Vue, is a progressive JavaScript
-      framework that has gained immense popularity in the web
-    </p>
-    <button class="-button1">Get Started</button>
-  </div>
-   </div>
-<div>
-      <v-row class="aa">
-        <v-col cols="12" lg="6" md="6" sm="12">
-          <p>This is a paragraph for</p>
-          <h2>THE VERY FIRST HEADING</h2>
-        </v-col>
-        <v-col cols="12" lg="6" md="6" sm="12">
-          <p>Vue.js, often referred to as Vue, is a progressive JavaScript</p>
-         <p>framework that has gained immense popularity in the web</p>
-         <p>development.Always ensure that HTML template is correct</p>
-        </v-col>
-         </v-row>
-   </div>
-<div class="card-container">
-  <div class="card1">
-    <h2>01</h2>
-    <h1 class="card-">SHOP PRODUCTS.</h1>
-  </div>
-  <div class="card2">
-    <h2> 02</h2>
-    <h1 class="card-">DONATE.</h1>
-  </div>
-  <div class="card3">
-    <h2>03</h2>
-    <h1 class="card-">BUY GIFT CARDS.</h1>
-  </div> 
-</div>
-<div>
-      <v-row >
-        <v-col class="bb" cols="12"  lg="4" md="4" sm="12">
-          <p>Vue.js, often referred to as Vue,in of</p>
-         <p>framework that has gained immense of </p>
-         <p>development.Always ensure that HTML</p>
-        </v-col>
-        <v-col class="cc" cols="12" lg="4" md="4" sm="12"> 
-        <p>Vue.js, often referred to as Vue,in of</p>
-         <p>framework that has gained immense of </p>
-         <p>development.Always ensure that HTML</p>
-        </v-col>
-        <v-col class="dd"  cols="12" lg="4" md="4" sm="12"> 
-          <p>Vue.js, often referred to as Vue,in of</p>
-         <p>framework that has gained immense of </p>
-         <p>development.Always ensure that HTML</p>
-        </v-col>
-         </v-row>
-   </div>
-   <div class="container2">
-  <div class="content2">
-    <h1 class="heading2">How We're Keeping You Safe From Covid-19</h1>
-    <p class="description2">Explore our amazing products and services.
-      Vue.js, often referred to as Vue, is a progressive JavaScript
-      framework that has gained immense popularity in the web
-    </p>
-    <button class="button2">Get Started</button>
-  </div>
-   </div>
-  </div>
+    <section class="firstsection background1">
+        <div class="box-main">
+            <div class="firstHalf1">
+                <p class="text-big" >STARBUCKS SINCE 1989 </p>
+                    <p class="text-small" >Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington.As of November 2021, the company had 33,833 stores in 80 countries, 15,444 of which were located in the United States.</p>
+                    <div class="buttons">
+                        <button class="btn" style=" font-family: 'Dancing Script', cursive;">Subscribe</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+        <!-- /************************************************/ -->
+        <section class="section" id="services">
+            <div class="paras1">
+            <p class="sectionTag text-big " style="font-family: 'Tilt Prism', cursive;">Starbucks Corporation 
+                </p>
+            <p class="sectionSubTag text-small">More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.</p> 
+        </div>
+        </section>
+        <section class="section" id="services">
+            <div class="paras2">
+            <p class="sectionSubTag text-small"> As of November 2021, the company had 33,833 stores in 80 countries, 15,444 of which were located in the United States. It is the world's largest coffeehouse chain.</p> 
+        </div>
+        </section>
+        <!-- /***********************************************************/ -->
+        <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <h1>1</h1>
+                <h2>SHOP PRODUCTS</h2>
+            </div>
+        </div>
+        <div class="cc">
+
+            <p>Vue.js, often referred to as Vue,in of</p>
+           <p>framework that has gained immense of </p>
+           <p>development.Always ensure that HTML</p></div> 
+       <!-- .............................. -->
+        <div class="card" >
+            <div class="card-content">
+                <h1>2</h1>
+                <h2>DONATE US</h2>
+            </div>
+        </div>
+        
+        <div class="cc"> 
+                
+            <p>Vue.js, often referred to as Vue,in of</p>
+           <p>framework that has gained immense of </p>
+           <p>development.Always ensure that HTML</p></div> 
+           
+       <!-- .......................................... -->
+        <div class="card">
+            <div class="card-content">
+                <h1>3</h1>
+                <h2>BUY GIFT</h2>
+            </div>
+        </div>
+             
+             <div class="cc"> 
+                
+                <p>Vue.js, often referred to as Vue,in of</p>
+               <p>framework that has gained immense of </p>
+               <p>development.Always ensure that HTML</p></div>  
+ </div>
+        <!-- .......................................... -->
+        <section class="firstsection1 background2">
+            <div class="box-main2">
+                <div class="firstHalf1">
+                    <p class="text-big" >Starbucks Corporation </p>
+                        <p class="text-small" >Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle.</p>
+                        <div class="buttons">
+                            <button class="btn" style=" font-family: 'Dancing Script', cursive;">SHOP NOW</button>
+                        </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        
+        
+    
 </template>
 <script>
-export default {
-  data() {
-    return {
-      welcomeMessage: "Welcome to Our Website!",
-    };
-  },
-  methods: {
-    signIn() {
-      alert("Sign in Successfully!"); 
-    },
-  },
-};
+
+
 </script>
 <style scoped>
-/* style for first navbar */
-.navbar {
-  background-color: #636262;
-  padding: 10px 0;
-}
-
-.navbar-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.navbar-text {
-  font-size: 18px;
-}
-.navbar-button {
-  background-color: #251e1e;
-  color:white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-/* Style for the second navbar */
-.second-navbar {
-  background-color: #0f0e0e;
-  padding: 0px 0;
- display: flex;
-  justify-content: center;
-  align-items: center;
-   position: sticky;
-    top: 0;
-    cursor: pointer;
-}
-.nav-link{
-   
-    display: flex;
-    align-items: center;
-    padding: 26px 30px;
-    color:#636262;
-    text-decoration: none;
-}
-.navbar a:hover {
-  color:#915555; 
-}
-/* content */
-.aa{
-  margin-left: 300px;
-  margin-top: 50px;
-}
-/* cards */
- .card-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-  }
-  .card- {
-    margin-top: 100px;
-    text-align: center;
-  }
-    .card {
-    border: 1px solid #0a0a0a;
-    padding: 20px;
-    width: 30%;
-    box-sizing: border-box;
-      height: 290px; 
-      margin: 0;
-  }
-  .card1 {
-    margin-left: auto;
-     border: 1px solid #fcfcfc;
-    padding: 20px;
-      height: 290px; 
-    width: 20%;
-    box-sizing: border-box;
-    margin-right: 10px;
-   background-color: #030303;
-   color: white;
- margin-right: 10px;
- 
-  }
-  .card2 {
-    margin: 0 auto;
-     border: 1px solid #f0eeee;
-    padding: 20px;
-    width: 20%;
-    box-sizing: border-box;
-    background-color: #030303;
-    color: white;
-      height: 290px; 
-       margin: 0 5px;
-  }
-  .card3 {
-    margin-right: auto;
-    color: white;
-     border: 1px solid #f9f9f9;
-     background-color: #030303;
-    padding: 20px;
-    width: 20%;
-    box-sizing: border-box;
-      height: 290px; 
-       margin-left: 10px;
-  }
-  /* description */
-  .bb{ 
-   margin-left: 285px;
-  margin-top: 20px;
-}
-  .cc{
-  margin-left: 610px;
-  margin-top: -80px;
-}
-  .dd{
-  margin-left: 950px;
-  margin-top: -80px;
-}
- body {
+*{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  /* ................. */
-  .container2 {
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    display: flex;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px solid white;
+ border-radius: 50% ;
+}
+.navbar1{
     display: flex;
     align-items: center;
-    height: 50vh;
-    background-image: url('cloud.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: rgb(243, 238, 238);
-  }
-  .container1 {
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    color: blue;
+    background-color: black;
+    top: 0;
+    padding: 1%;
+}
+.navbar{
     display: flex;
     align-items: center;
-    height: 50vh;
-    background-image: url('paris.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: rgb(12, 12, 13);
-  }
-
-  .content2 {
-    text-align: center;
-  }
-  .content1 {
-    text-align: center;
-  }
-   .heading2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    margin-left: 1000px;
-  }
-  .heading1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    margin-left: 1000px;
-  }
-
-  .description2 {
-    font-size: 18px;
-    margin-bottom: 20px;
-     margin-left: 1000px;
-  }
-  .description1 {
-    font-size: 18px;
-    margin-bottom: 20px;
-     margin-left: 1000px;
-  }
-
-  .button2 {
-    background-color: #efe9e9;
-    color: rgb(21, 20, 20);
-    padding: 10px 20px;
-     margin-left: 1000px;
-    border: none;
+    justify-content: center;
+    top: 0;
     cursor: pointer;
-    font-size: 16px;
-  }
-  .-button1 {
-    background-color: #030303;
-    color: white;
-    padding: 10px 20px;
-     margin-left: 1000px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  /* ...................... */
+    /* position: sticky; */
+}
+.nav-list{
+    width: 70%;
+    align-items: center;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(8, 140, 254);
+    }
+    .nav-list li a:hover{
+        text-decoration: none;
+        color: brown;
+    }
+    .background{
+        background: rgba(0,0, 0, 0.7);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .background1{
+        background: rgba(0,0, 0, 0.7) url('sb4.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .background2{
+        background: rgba(0,0, 0, 0.7) url('sb.webp');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    /* .background2{
+        background: rgba(0,0, 0, 0.7) url('citi2.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+    } */
+    .navbar-button{
+        padding: 5px 10px;
+        margin: 5px 3px;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .firstsection{
+        height: 50vh;
+       
+    }
+    .firstsection1{
+        height: 60vh;
+        margin-top: -300px;
+       
+    }
+    .secondsection{
+        height: 70vh;
+        margin-top: -20%;
+        margin-bottom: 0%;
+     
+    }
+    .box-main{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: auto;
+        max-width: 50%;
+        height: 130%;
+        margin-left: 2%;
+    }
+    .box-main2{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: auto;
+        max-width: 50%;
+        height: 100%;
+        margin-right: 2%;
+    }
+ 
+        .firstHalf1{
+            flex-direction: column;
+            justify-content: center;
+            display: flex;
+            width: 80%;
+            
+            }
+        .text-big{
+            font-size: 41px;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            .text-small{
+                font-size: 18px;
+              font-family: 'Times New Roman', Times, serif;
+            }
+            .btn{
+                padding: 8px 20px;
+                margin: 7px 3px;
+                border: 2px solid white;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 12px;
+            }
+            .paras1{
+                padding: 0px 65px;
+                margin-right: 50%;
+            }
+            .paras2{
+                padding: 0px 65px;
+                margin-left: 50%;
+                margin-top: -10%;
+            }
+            .section{
+                display: flex;
+                align-items: center;
+               justify-content: space-evenly;
+                max-width: 80%;
+                margin: auto;
+                padding: 10px;
+            }
+            .section-left{
+                flex-direction: row-reverse;
+            }
+            /* .................................. */
+            
+            .card-content {
+                text-align: center;
+                color: white;
+            }  
+            .card-content h1{
+                padding: 27px 0px;
+            }
+            .card-content h2{
+                padding: 28px 0px;
+            }
+               
+               .container{
+                width: 1170px;
+                margin: auto;
+                display: flex;
+            justify-content: space-around;
+               }
+               
+        .card{
+            flex-basis: 22%;
+            background: black;
+            margin: 10px 0px;
+            box-shadow: 0px 0px 10px 3px gray;
+            text-align: center;
+            padding: 20px 25px;
+            height: 35vh;
+            
+        }
+        .cc{
+            flex-basis: 22%;
+            margin: 290px -80px;
+            text-align: center;
+            padding: 20px 25px;
+         margin-left: -43%;
+        
+        }
+     
+       
+
+           
+        
+        /* ............................... */
+            @media only screen and (max-width:1140px){
+                .nav-list{
+                    flex-direction: column;
+                    max-width: 100%;
+                }
+                .navbar{
+                    flex-direction: column;
+              height: auto;
+                }
+                .navbar1{
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .h-nav-resp{
+                    height: auto;
+                }
+                .v-class-resp{
+                  opacity: 0;
+                }
+                .text-big{
+                    text-align: center;
+                        }
+                        .text-small{
+                    text-align: center;
+                        }
+               
+                        .box-main{
+                          flex-direction: column;
+                            max-width: 100%;
+                            align-items: center;
+                            justify-content: center;
+                        
+                        }
+                        .box-main2{
+                            flex-direction: column;
+                            max-width: 100%;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top: 90%;
+
+                        }
+                        .background1{
+                            max-width: 100%;
+                            height: auto;
+                        }
+                        .background2{
+                            max-width: 100%;
+                            height: auto;
+                            margin-top: -87%;
+                        }
+                .section{
+                    flex-direction: column-reverse;
+                  
+                }
+                .buttons{
+                    text-align: center;
+                        }
+                .paras1{
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                    
+                }
+                .paras2{
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                } 
+                .cc{
+                    margin: 4% 0; 
+                    flex-direction: column;
+                    text-align: center;
+                    max-width: 100%;
+                }
+               
+                .dd{
+                    margin: 4% 0; 
+                    flex-direction: column;
+                    text-align: center;
+                    max-width: 100%;
+                }
+                .container{
+                    width: 100%;
+                    flex-direction: column;
+                }
+                .card{
+                    margin: 10px;
+                    
+                }
+                .cc{
+                    margin: 10px;
+                }
+               
+            }
 </style>

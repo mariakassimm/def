@@ -30,11 +30,11 @@ const routes = [
     name: 'what',
     component: () => import('../components/WebSite.vue')
   },
-  {
-    path: '/woah',
-    name: 'woah',
-    component: () => import('../components/OneTime.vue')
-  },
+  // {
+  //   path: '/woah',
+  //   name: 'woah',
+  //   component: () => import('../components/OneTime.vue')
+  // },
 //   {
 //     path: '/why',
 //     name: 'why',
